@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2023. Dec 01. 13:27
+-- Létrehozás ideje: 2023. Dec 01. 13:28
 -- Kiszolgáló verziója: 10.4.28-MariaDB
 -- PHP verzió: 8.2.4
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Adatbázis: `eszerviz`
 --
+CREATE DATABASE IF NOT EXISTS `eszerviz` DEFAULT CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
+USE `eszerviz`;
 
 -- --------------------------------------------------------
 
