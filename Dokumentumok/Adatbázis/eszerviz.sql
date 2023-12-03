@@ -20,8 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Adatbázis: `eszerviz`
 --
-CREATE DATABASE IF NOT EXISTS `eszerviz` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `eszerviz`;
 
 -- --------------------------------------------------------
 
