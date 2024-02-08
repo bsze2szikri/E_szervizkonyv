@@ -29,8 +29,8 @@ const addTodo = () => {
 	todos.value.push({
 		content: input_content.value,
 		category: input_category.value,
-		done: false,
-		editable: false,
+		done: true,
+		editable: true,
 		createdAt: new Date().getTime()
 	})
 }
