@@ -18,7 +18,7 @@ watch(name, (newVal) => {
 watch(todos, (newVal) => {
 	localStorage.setItem('todos', JSON.stringify(newVal))
 }, {
-	deep: false
+	deep: true
 })
 
 const addTodo = () => {
