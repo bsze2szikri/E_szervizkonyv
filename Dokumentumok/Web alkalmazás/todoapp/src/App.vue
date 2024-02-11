@@ -30,7 +30,7 @@ const addTodo = () => {
 		content: input_content.value,
 		category: input_category.value,
 		done: true,
-		editable: false,
+		editable: true,
 		createdAt: new Date().getTime()
 	})
 }
